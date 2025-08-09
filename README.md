@@ -46,7 +46,12 @@ Before running the project, ensure you have:
    ```sh
    git clone [https://github.com/Jens0343/devmatch.git]
 
-   cd webapp && npm install && npm run dev
+   cd song lin/front/webapp && npm install && npm run dev
+   cd song lin/zklogin_authentication_system_with_enoki_integration_4f9bh4/webapp && npm run dev
+
+
+
+
 
 
 
