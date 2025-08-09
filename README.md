@@ -1,39 +1,55 @@
-# 🏗 Scaffold-ETH 2
+# PredictionSteem
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+## 📚 Description
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+An application that aims to deliver a transparent, financially rewarding and spam-resistant platform. We do this by combining blockchain-based voting, stake-weighted credibility, and tokenized rewards to ensure that quality discussions rise to the top.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+## 🚀 Problem Statement
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+-- Low-Quality Finance Discussions
 
-## Requirements
+-- Equal Influence for Everyone
 
-Before you begin, you need to install the following tools:
+-- No Monetary Value in Engagement
 
-- [Node (>= v20.18.3)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
 
-# 🚩 Challenge: 🔏 Decentralized Staking App
+## 🚀 Solution
 
-![readme-1](https://raw.githubusercontent.com/scaffold-eth/se-2-challenges/challenge-decentralized-staking/extension/packages/nextjs/public/hero.png)
+-- Focused Financial Community
 
-🦸 A superpower of Ethereum is allowing you, the builder, to create a simple set of rules that an adversarial group of players can use to work together. In this challenge, you create a decentralized application where users can coordinate a group funding effort. If the users cooperate, the money is collected in a second smart contract. If they defect, the worst that can happen is everyone gets their money back. The users only have to trust the code.
+-- Stake-Weighted Voting System
 
-🏦 Build a `Staker.sol` contract that collects **ETH** from numerous addresses using a payable `stake()` function and keeps track of `balances`. After some `deadline` if it has at least some `threshold` of ETH, it sends it to an `ExampleExternalContract` and triggers the `complete()` action sending the full balance. If not enough **ETH** is collected, allow users to `withdraw()`.
+-- Tokenized Rewards for Contributions
 
-🎛 Building the frontend to display the information and UI is just as important as writing the contract. The goal is to deploy the contract and the app to allow anyone to stake using your app. Use a `Stake(address, uint256)` event to list all stakes.
+## 🚀 Group Mates
+
+-- [Soo Jian Lin](https://github.com/Jens0343)
+
+-- [Nicholas Pang](https://github.com/Fraxtal)
+
+-- [Song Lin](https://github.com/LEE-72)
+
+-- [Lucas Tan](https://github.com/talucas1220)
+
+
+## 📦 Prerequisites
+
+Before running the project, ensure you have:
+
+- **Node.js** (v22.x or later)
+- **npm** 
+
+## 🛠️ Installation
+
+**Clone the repository and run in developer mode**
+   ```sh
+   git clone https://github.com/Fraxtal/DevMatch-2025.git
+
+   cd webapp && npm install && npm run dev
+
+
+
 
 > 📝 Note: If you use named arguments in your event (e.g. `event Stake(address indexed staker, uint256 amount)`), you'll need to update `/packages/nextjs/app/stakings/page.tsx` to reference event parameters by their names instead of numeric indices.
 
